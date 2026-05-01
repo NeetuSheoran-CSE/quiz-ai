@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import { callClaude } from './api'
 import { FALLBACK_QUESTIONS, shuffle } from './data'
-import { CATEGORIES } from './Components/Trivia'
+import { CATEGORIES } from './components/Trivia'
 
 import Nav         from './components/Nav'
 import HomeView    from './components/home/HomeView'
@@ -15,7 +15,7 @@ import ResultsView from './components/ResultsView'
 import GenOverlay  from './components/GenOverlay'
 import Tutor       from './components/Tutor'
 import Voice       from './components/Voice'
-import {fetchTriviaQuestions} from './Components/Trivia'
+import {fetchTriviaQuestions} from './components/Trivia'
 
 
 
